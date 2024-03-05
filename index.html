@@ -1,0 +1,60 @@
+<head>
+    <!-- Query version link -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <!-- jQuery validation link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.1/jquery.validate.min.js"></script>
+    <!-- bxslider-->
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js">
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    </link>
+    <link rel="stylesheet" href="style.css">
+    </link>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js">
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+    </link>
+    <script src="form_validation.js">
+    </script>
+  </script>
+  </head>
+    <script>
+      $(document).ready(function(){
+        $(".slider").bxSlider();
+      })
+      $(document).ready(function(){
+        $(".lightbox").lightbox();
+      })
+  </script>
+  <body>
+      <h2>Registration</h2>
+      <form action=" " name="registration">
+  
+      <label for="firstname">First Name</label>
+      <input type="text" name="firstname" id="firstname" placeholder="moonisa"/>
+  
+      <label for="lastname">Last Name</label>
+      <input type="text" name="lastname" id="lastname" placeholder="sana"/>
+  
+      <label for="email">Email</label>
+      <input type="email" name="email" id="email" placeholder="moonisa@sana.com"/>
+  
+      <label for="password">Password</label>
+      <input type="password" name="password" id="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;"/>
+      <button type="submit">Submit</button>
+    </form>
+    <centre>
+      <div class="slider">
+        <div>I am a slider</div>
+        <div>I am another slide</div>
+      </div>
+      <div class="lightbox">
+        <div><img src="https://www.activityshelter.com/wp-content/uploads/2016/04/picture-of-number-1-gold.jpg"></div>
+        <div><img src="https://jooinn.com/images/number-two-3.png"></div>
+        <div><img src="https://th.bing.com/th/id/R.911eb19c41aca9e14592db2a06ad0011?rik=ty%2bA74h%2fri0q2g&riu=http%3a%2f%2fclipartmag.com%2fimages%2fnumber-three-clipart-2.png&ehk=fP2F1bLlUZP2ikjsVVV9WfQ8nYX1NNlBucDS7%2bfMX6k%3d&risl=&pid=ImgRaw&r=0"></div>
+  
+      </div>
+     </centre> 
+      
+  </body>
+  </html>
